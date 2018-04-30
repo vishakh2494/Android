@@ -6,7 +6,7 @@ application displays the description, precautions, suggestions, pre-medical cond
 On patient’s necessity, he/she can locate the nearest hospital/drugstore.
 
 API’s Used/Implemented:
-  ->Google API
-  ->Hardware Camera Sensor API
-  ->Location Sensor API
-  ->Multi-touch gesture 
+->Google API
+->Hardware Camera Sensor API
+->Location Sensor API
+->Multi-touch gesture 
