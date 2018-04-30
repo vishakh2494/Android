@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Health Care</string>
+
+    <string name="fever">Fever</string>
+    <string name="cold">Cold</string>
+    <string name="Nausea">Nausea</string>
+    <string name="body_pain">Body Pain</string>
+    <string name="chest_pain">Chest Pain</string>
+    <string name="diarrhea">Diarrhea</string>
+    <string name="vertigo">Vertigo</string>
+    <string name="weakness">Weakness</string>
+
+</resources>

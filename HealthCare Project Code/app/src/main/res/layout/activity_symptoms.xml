@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.visha.healthcare.symptoms">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:text="symptoms"
+        android:textSize="30dp"
+        android:textAllCaps="true"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textStyle="italic"
+        android:text="Please select the symptoms you are experiencing from the below options:"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <CheckBox
+            android:id="@+id/fever"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fever"
+            android:onClick="SelectSymptoms"
+            android:layout_marginLeft="20dp"/>
+
+        <CheckBox
+            android:id="@+id/chestpain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/chest_pain"
+            android:onClick="SelectSymptoms"
+            android:layout_marginLeft="160dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <CheckBox
+            android:id="@+id/cold"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cold"
+            android:onClick="SelectSymptoms"
+            android:layout_marginLeft="20dp"/>
+
+        <CheckBox
+            android:id="@+id/bodypain"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/body_pain"
+            android:onClick="SelectSymptoms"
+            android:layout_marginLeft="165dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <CheckBox
+            android:id="@+id/nausea"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Nausea"
+            android:onClick="SelectSymptoms"
+            android:layout_marginLeft="20dp"/>
+
+        <CheckBox
+            android:id="@+id/diarrhea"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/diarrhea"
+            android:onClick="SelectSymptoms"
+            android:layout_marginLeft="147dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp">
+
+        <CheckBox
+            android:id="@+id/vertigo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/vertigo"
+            android:onClick="SelectSymptoms"
+            android:layout_marginLeft="20dp"/>
+
+        <CheckBox
+            android:id="@+id/weakness"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="150dp"
+            android:onClick="SelectSymptoms"
+            android:text="@string/weakness"/>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/done"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Done"
+        android:onClick="symptomsaction"
+        android:textAlignment="center"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp" />
+
+</LinearLayout>
